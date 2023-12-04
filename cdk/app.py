@@ -15,7 +15,7 @@ cashtoday_customers_stack = CashTodayCustomersStack(
 )
 
 cdk.Tags.of(cashtoday_customers_stack).add("Environment", "Development")
-cdk.Tags.of(cashtoday_customers_stack).add("RepositoryUrl", "https://github.com/jcrojas/aws-cdk-cashtoday-customers")
+cdk.Tags.of(cashtoday_customers_stack).add("RepositoryUrl", "https://github.com/jcsimrog/cdk-cashtoday-customers")
 cdk.Tags.of(cashtoday_customers_stack).add("Source", "aws-cdk-cashtoday-customers")
 cdk.Tags.of(cashtoday_customers_stack).add("Owner", "Juan Carlos Rojas Hernández")
 
